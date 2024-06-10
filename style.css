@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body {
+    font-family: "Young Serif", serif;
+    margin-left: 40px;
+    margin-top: 40px;
+    max-width: 46%;
+}
+.list {
+    padding-left: 18px;
+}
+ul li::marker{
+    color: hsl(14, 45%, 36%);
+}
+ol li::marker{
+    color: hsl(14, 45%, 36%);
+    font-size: 16px;
+    font-weight: bold;
+}
+img {
+    border-radius: 25px;
+    width: 90vh;
+}
+p {
+    size: 16px;
+}
+h2 {
+    color:hsl(14, 45%, 36%);
+}
+h1 {
+    font-size: 40px;
+}
+.header p {
+    font-family: "Outfit", sans-serif;
+    margin-bottom: 30px;
+}
+
+.Preparation {
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;
+    padding-left: 40px;
+    border-radius: 9px;
+}
+
+
+.Preparation p {
+    font-family: "Outfit", sans-serif;
+    color: hsl(332, 51%, 32%);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Preparation li {
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    margin: 10px 0;
+    padding-left: 15px;
+    
+}
+
+.Preparation span {
+    color :hsl(24, 5%, 18%);
+    font-family: "Outfit", serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.Ingredients {
+    font-family: "Young-Serif", serif;
+}
+
+.Ingredients h2 {
+    font-size: 28px;
+}
+
+.Ingredients li {
+    font-family: "Outfit", sans-serif;
+    margin: 10px 0;
+    padding-left: 15px;
+}
+
+.Instructions {
+    font-family: "Young-Serif", serif;
+}
+
+.Instructions h2 {
+    font-size: 28px;
+}
+
+.Instructions li {
+    font-family: "Outfit", sans-serif;
+    margin: 10px 0;
+    padding-left: 15px;
+}
+
+.Instructions span {
+    font-family: "Young-Serif", sans-serif;
+    color :hsl(24, 5%, 18%);
+    font-family: "Outfit", serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.tab {
+    margin-left: 30px;
+}
+
+.number {
+    color: hsl(14, 45%, 36%);
+}
+
+.text {
+    font-family: "Outfit", sans-serif;
+}
+
+th, td {
+    border-bottom: 1px solid lightgray;
+    padding: 8px;
+  }
+
+  .attribution {
+    margin-top: 50px;
+  }
